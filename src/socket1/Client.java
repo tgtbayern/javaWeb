@@ -1,3 +1,5 @@
+package socket1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,7 +20,7 @@ public class Client {
             socket.setKeepAlive(true);
             //here we use construct method to connect to the server
             // but if we want to connect manually
-            // we can use connect method(the following line is not necessary)
+            // we can use connect method(so the following line is not necessary since we already connected to server)
             socket.connect(new InetSocketAddress("localhost",8080),1000);
 
             System.out.println("Already connected to the server!");
@@ -29,7 +31,7 @@ public class Client {
             writer.write(scanner.nextLine()+"\n");
             //flush and client will send it to server
             writer.flush();
-            //here is the same way as Server, "socket" should close and I write it in try block
+            //here is the same way as socket1.Server, "socket" should close and I write it in try block
             System.out.println("data already sent");
 
 

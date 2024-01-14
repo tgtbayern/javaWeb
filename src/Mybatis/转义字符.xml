@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <title>Special Characters</title>
+    <content>
+        In XML, the following special characters are represented using escape sequences:
+        <list>
+            <item>&lt; (less than)</item>
+            <item>&gt; (greater than)</item>
+            <item>&amp; (ampersand)</item>
+            <item>&apos; (apostrophe or single quote)</item>
+            <item>&quot; (quotation mark)</item>
+        </list>
+    </content>
+</document>
