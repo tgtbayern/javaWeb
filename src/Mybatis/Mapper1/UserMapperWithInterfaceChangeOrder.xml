@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    MyBatis 映射器（Mapper）XML 文件，用于定义 SQL 映射配置。
+    映射器文件通常用于将数据库操作与 Java 方法关联起来。
+-->
+
+    <!-- 定义映射器命名空间，通常与对应的 Java 接口或类的全限定名一致
+    全限定名唯一标识了这个接口在Java代码中（不是计算机的路径）的位置-->
+<mapper namespace="Mybatis.Mapper1.UserMapper">
+<!--
+这里我们设置映射规则，把数据库的password映射到java user类的username字段
+-->
+    <resultMap id="Test" type="User">
+        <result column="password" property="username"/>
+        <result column="username" property="password"/>
+    </resultMap>
+    <!--
+        namespace是这个mapper配置文件的名字，这里我们通过namespace属性把这个mapper和UserMapper接口对应
+        这样当我们调用接口中的抽象方法时，myBatis就知道通过这个mapper里的配置文件，来实现那个抽象方法
+
+        id指的是“select * from user”这条语句的名字，起了这个名字后，我们就可以在后面的java代码里用这个名字指代这条sql语句
+        这里我们已经将这个mapper和接口对应，接口里会有一个名叫selectUser的抽象方法
+        当调用selectUser方法时，myBatis会通过namespace找到这个mapper
+        再通过id来找到调用的这个selectUser方法具体对应这个mapper里的哪一部分语句
+
+        resultMap是映射规则的名字，也就是上面那个resultMap id="Test"
+        如果使用默认映射规则（数据库字段和java字段一一对应），就选resultType="User"而不是resultMap="Test"
+    -->
+
+
+    <select id="selectUser" resultMap="Test">
+        select * from accounting_ledger.user
+    </select>
+    <!--
+        在实际项目中，查询语句通常更为复杂，可以包含条件、关联查询等。
+        这里的示例是一个简单的查询所有user的语句。
+    -->
+
+</mapper>

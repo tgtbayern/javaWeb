@@ -12,9 +12,9 @@ import java.util.List;
  * 我们已经配置好了myBatis，当我们希望使用myBatis的时候，
  * 我们就会创建一个SqlSessionFactory类，在这个类里使用myBatis的各种功能。
  */
-public class Main {
+public class Main1 {
     public static void main(String[] args) throws FileNotFoundException {
-        //寻找配置文件
+        //寻找配置文件,参数就是配置文件的路径，这里是相对路径
         SqlSessionFactory sqlSessionFactory =
                 new SqlSessionFactoryBuilder().build(new FileInputStream("myBatis_config.xml"));
 

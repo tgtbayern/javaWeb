@@ -7,7 +7,7 @@ public class safeLogin {
     public static void main(String args[]){
         try(Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306","root","020809");
             //?是占位符
-            PreparedStatement statement = connection.prepareStatement("select * from user where username= ? and password=?;");
+            PreparedStatement statement = connection.prepareStatement("select * from accounting_ledger.user where username= ? and password=?;");
             Scanner scanner=new Scanner(System.in)){
             //传入的参数的位置和传入的内容
             statement.setString(1, scanner.nextLine());
@@ -16,7 +16,7 @@ public class safeLogin {
             ResultSet resultSet = statement.executeQuery();
             while(resultSet.next()){
                 String name = resultSet.getString(1);
-                System.out.println(name+"login successfully!");
+                System.out.println(name+" login successfully!");
             }
         }catch(Exception e){
             e.printStackTrace();

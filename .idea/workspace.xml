@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="081fcd0f-ae51-412e-ad35-2ce1bd233021" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis_3_5_14__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/lombok.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mybatis-3.5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myBatis_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/转义字符.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/转义字符2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/safeLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_1_0.xml" beforeDir="false" />
+    <list default="true" id="081fcd0f-ae51-412e-ad35-2ce1bd233021" name="变更" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2_javadoc__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUL/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUnit/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/MyBatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/UserMapperWithInterface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/UserMapperWithInterfaceChangeOrder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/MyBatisUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/configuration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc1/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket1/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket1/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket2文件传输/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket2文件传输/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket2文件传输/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket2文件传输/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket2文件传输/text1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket2文件传输/text1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket2文件传输/text2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket2文件传输/text2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket3_browser_to_socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket3_browser_to_socket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myBatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mybatis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mybatis/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/safeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/safeLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -80,6 +80,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb\lib" />
+      <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb\src\Mybatis\Mapper1" />
+      <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb\src\Mybatis\Mapper" />
       <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,14 +90,18 @@
     <key name="ImportExportFile.TargetDir.RECENT_KEYS">
       <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb\src\jdbc" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Mybatis.annotation" />
+      <recent name="Mybatis.Mapper1" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main">
-    <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.Database" />
+  <component name="RunManager" selected="应用程序.test">
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mybatis.annotation.Main5" />
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="Mybatis.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.Login" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUL.test" />
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="JUL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,46 +122,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mybatis.Main" />
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mybatis.*" />
+          <option name="PATTERN" value="JUnit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="JUnit" />
+      <option name="MAIN_CLASS_NAME" value="JUnit.test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket1.Server" />
+    <configuration name="test.method1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JUnit" />
+      <option name="MAIN_CLASS_NAME" value="JUnit.test" />
+      <option name="METHOD_NAME" value="method1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="socket3_browser_to_socket.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket3_browser_to_socket.Server" />
+    <configuration name="test.method3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket3_browser_to_socket.*" />
+          <option name="PATTERN" value="JUnit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="JUnit" />
+      <option name="MAIN_CLASS_NAME" value="JUnit.test" />
+      <option name="METHOD_NAME" value="method3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.Login" />
-        <item itemvalue="应用程序.Database" />
-        <item itemvalue="应用程序.socket3_browser_to_socket.Server" />
-        <item itemvalue="应用程序.Server" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="JUnit.test.method3" />
+        <item itemvalue="JUnit.test.method1" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="应用程序.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -170,8 +190,17 @@
       <workItem from="1698431586746" duration="7554000" />
       <workItem from="1704093846436" duration="3165000" />
       <workItem from="1704246006874" duration="23981000" />
-      <workItem from="1704779110548" duration="46335000" />
+      <workItem from="1704779110548" duration="79065000" />
+      <workItem from="1705557122968" duration="4294000" />
     </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <created>1705267576440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705267576440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +216,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

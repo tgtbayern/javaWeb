@@ -45,9 +45,8 @@
      在src文件夹外的时候，用url
      resource指类目录，url指电脑的文件目录-->
     <mappers>
-        <mapper url="file:UserMapper.xml"/>
-        <mapper resource="Mybatis/Mapper/UserMapperWithInterface.xml"/>
-        <mapper resource="Mybatis/Mapper1/UserMapperWithInterfaceChangeOrder.xml"/>
-
+        <!--通过注解-->
+        <mapper class="Mybatis.annotation.StudentMapper"/>
+        <!--  也可以直接注册整个包下的 <package name="com.test.mapper"/>  -->
     </mappers>
 </configuration>
