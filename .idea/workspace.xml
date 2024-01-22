@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="081fcd0f-ae51-412e-ad35-2ce1bd233021" name="变更" comment="2nd commit">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_2_javadoc__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUL/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUnit/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/MyBatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/UserMapperWithInterface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/UserMapperWithInterfaceChangeOrder.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/Mapper1/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/MyBatisUtil1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mybatis/annotation/configuration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myBatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myBatis_config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mybatis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mybatis/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/safeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/safeLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +30,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/86136/projects/IdeaProjects/javaWeb/lib",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "库",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/86136/projects/IdeaProjects/javaWeb/lib&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\86136\projects\IdeaProjects\javaWeb\lib" />
@@ -95,13 +67,13 @@
       <recent name="Mybatis.Mapper1" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.test">
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mybatis.annotation.Main5" />
+  <component name="RunManager" selected="应用程序.Main1">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mybatis.Main1" />
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mybatis.annotation.*" />
+          <option name="PATTERN" value="Mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaWeb" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +104,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="JUnit" />
       <option name="MAIN_CLASS_NAME" value="JUnit.test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="method" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main1" />
+        <item itemvalue="JUnit.test.method" />
         <item itemvalue="应用程序.test" />
         <item itemvalue="JUnit.test.method3" />
         <item itemvalue="JUnit.test.method1" />
-        <item itemvalue="JUnit.test" />
-        <item itemvalue="应用程序.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +165,7 @@
       <workItem from="1704246006874" duration="23981000" />
       <workItem from="1704779110548" duration="79065000" />
       <workItem from="1705557122968" duration="4294000" />
+      <workItem from="1705892875530" duration="1300000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1705267576440</created>
