@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-22T04:03:30.442897800Z</date>
+  <millis>1705896210442</millis>
+  <nanos>897800</nanos>
+  <sequence>4</sequence>
+  <logger>com.sun.tools.javac.Main</logger>
+  <level>SEVERE</level>
+  <class>JUL.LogLevel</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>严重的错误</message>
+  <exception>
+    <message>java.io.IOException: 我就是错误</message>
+    <frame>
+      <class>JUL.LogLevel</class>
+      <method>main</method>
+      <line>37</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2024-01-22T04:03:30.446887Z</date>
+  <millis>1705896210446</millis>
+  <nanos>887000</nanos>
+  <sequence>5</sequence>
+  <logger>com.sun.tools.javac.Main</logger>
+  <level>WARNING</level>
+  <class>JUL.LogLevel</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>警告的内容</message>
+</record>
+</log>

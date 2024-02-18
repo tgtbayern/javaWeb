@@ -5,7 +5,10 @@
 <configuration>
     <!-- XML 配置文件的根元素，包含了 MyBatis 的全局配置信息 -->
     <!-- 定义了数据库环境配置 -->
-
+<settings>
+<!-- 配置mybatis的日志系统，直接打印到控制台   -->
+    <setting name="logImpl" value="JDK_LOGGING"/>
+</settings>
     <typeAliases>
         <package name="Mybatis"/>
     </typeAliases>

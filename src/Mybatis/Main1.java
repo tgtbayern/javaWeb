@@ -11,6 +11,7 @@ import java.util.List;
 /**
  * 我们已经配置好了myBatis，当我们希望使用myBatis的时候，
  * 我们就会创建一个SqlSessionFactory类，在这个类里使用myBatis的各种功能。
+ * 目前这个类无法使用，因为已经把selectUser方法移到了UserMapper.xml中，需要通过和UserMapper.xml对应的接口才能调用
  */
 public class Main1 {
     public static void main(String[] args) throws FileNotFoundException {
